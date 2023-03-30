@@ -3,14 +3,13 @@ import ReactDOM, { createRoot } from 'react-dom/client';
 import { Provider } from 'react-redux';
 import store from './store/index';
 import Navbar from './components/Navbar';
+import App from './App';
 import './index.css';
 
 // make sure this react dom create refers to the same id of the div in the index.html file
 ReactDOM.createRoot(document.getElementById('app')).render(
   <Provider store={store}>
     <Navbar />
-    <div className="indexStyle">
-      <p>Hello, World</p>
-    </div>
+    <App />
   </Provider>
 );
