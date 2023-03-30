@@ -6,3 +6,9 @@
   font-weight: 800;
   text-align: center;
 }
+
+.navBar {
+  text-align: center;
+  font-size: larger;
+  background-color: #f08080;
+}
