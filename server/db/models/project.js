@@ -1,8 +1,8 @@
 const Sequelize = require('sequelize');
 const db = require('../database');
 
-const Task = db.define('task', {
-  taskName: {
+const Project = db.define('project', {
+  projectName: {
     allowNull: false,
     type: Sequelize.STRING,
     validate: {
@@ -45,14 +45,6 @@ const Task = db.define('task', {
       notEmpty: true,
     },
   },
-  completionStatus: {
-    allowNull: false,
-    defaultValue: false,
-    type: Sequelize.BOOLEAN,
-    validate: {
-      notEmpty: true,
-    },
-  },
 });
 
-module.exports = Task;
+module.exports = Project;
