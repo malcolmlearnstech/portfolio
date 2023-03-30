@@ -1,9 +1,9 @@
 const db = require('./database');
 
 const User = require('./models/user');
-const Task = require('./models/task');
+const Project = require('./models/project');
 
-User.hasMany(Task);
-Task.belongsTo(User);
+User.hasMany(Project);
+Project.belongsTo(User);
 
-module.exports = { db, User, Task };
+module.exports = { db, User, Project };
