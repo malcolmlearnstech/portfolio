@@ -9,7 +9,7 @@ export default function Skills() {
       <div
         align="center"
         class="[word-spacing:-20px]"
-        className="text-xl italic p-8 leading-relaxed tracking-wide"
+        className="text-xl italic p-8 leading-relaxed tracking-wide leading-loose"
       >
         <div>Node.js&nbsp;&nbsp;Javascript&nbsp;&nbsp;Git</div>
         <div>Express&nbsp;&nbsp;HTML5&nbsp;&nbsp;CSS</div>
