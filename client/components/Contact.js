@@ -6,7 +6,7 @@ export default function Contact() {
       <div className="text-center italic text-lg pt-4">
         <p>Below will display the Contact section:</p>
       </div>
-      <div className="text-center text-xl italic p-8 leading-loose">
+      <div className="text-center text-xl italic leading-loose">
         <div>
           <a href="https://www.linkedin.com/in/malcolmrm/">LinkedIn</a>
         </div>
