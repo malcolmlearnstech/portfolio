@@ -4,7 +4,8 @@ import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
 
 const navigation = [
-  { name: 'About Me', href: '#', current: true },
+  { name: 'Home', href: '#', current: true },
+  { name: 'About Me', href: '#', current: false },
   { name: 'Skills', href: '#', current: false },
   { name: 'Projects', href: '#', current: false },
   { name: 'Contact', href: '#', current: false },
@@ -42,9 +43,9 @@ export default function Navbar() {
                           href={item.href}
                           className={classNames(
                             item.current
-                              ? 'bg-gray-900 text-white'
-                              : 'text-gray-300 hover:bg-teal-300 hover:text-white',
-                            'rounded-md px-3 py-2 text-sm font-medium'
+                              ? 'bg-gray-900 text-white font-serif'
+                              : 'text-gray-300 hover:bg-teal-300 hover:text-white font-serif',
+                            'rounded-md px-3 py-2 text-xl font-medium'
                           )}
                           aria-current={item.current ? 'page' : undefined}
                         >
