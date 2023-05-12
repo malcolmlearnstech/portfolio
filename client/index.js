@@ -9,7 +9,7 @@ import './index.css';
 // make sure this react dom create refers to the same id of the div in the index.html file
 ReactDOM.createRoot(document.getElementById('app')).render(
   <Provider store={store}>
-    <div className="bg-teal-700  min-h-screen min-w-screen">
+    <div className="bg-gradient-to-t from-cyan-500 to-blue-500  min-h-screen min-w-screen">
       <Navbar />
       <App />
     </div>
