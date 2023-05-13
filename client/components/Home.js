@@ -6,9 +6,11 @@ export default function Home() {
     <>
       <div name="home" className="h-screen w-full">
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-          <div>
-            <h2>I am a Full Stack Software Engineer</h2>
-            <p>
+          <div className="flex flex-col justify-center h-full">
+            <h2 className="text-4xl sm:text-7xl font-bold">
+              I am a Full Stack Software Engineer
+            </h2>
+            <p className="py-4 max-w-md">
               I have a year of experience building and designing software. I
               enjoy working on web applications using technologies like React
               and Tailwind.
