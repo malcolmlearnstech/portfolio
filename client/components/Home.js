@@ -8,7 +8,7 @@ export default function Home() {
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
           <div className="flex flex-col justify-center h-full">
             <h2 className="text-4xl sm:text-7xl font-bold">
-              I am a Full Stack Software Engineer
+              Hi, my name is Malcolm and I am a Full Stack Software Engineer
             </h2>
             <p className="py-4 max-w-md">
               I have a year of experience building and designing software. I
