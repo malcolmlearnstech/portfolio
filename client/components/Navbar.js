@@ -18,7 +18,7 @@ function classNames(...classes) {
 export default function Navbar() {
   console.log(Disclosure);
   return (
-    <div>
+    <div className="sticky top-0">
       <Disclosure as="nav" className="bg-sky-950">
         {({ open }) => (
           <>
