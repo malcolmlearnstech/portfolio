@@ -18,9 +18,9 @@ export default function Home() {
             </p>
             <div>
               <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-600 to-orange-400 cursor-pointer">
-                Skills &nbsp;
+                Skills
                 <span className="group-hover:rotate-90 duration-300">
-                  <MdOutlineKeyboardArrowRight />
+                  <MdOutlineKeyboardArrowRight size={20} className="ml-1" />
                 </span>
               </button>
             </div>
