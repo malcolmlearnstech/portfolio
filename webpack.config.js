@@ -35,6 +35,18 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.svg$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'svg/',
+            },
+          },
+        ],
+      },
     ],
   },
 };
