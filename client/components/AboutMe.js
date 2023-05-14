@@ -5,12 +5,12 @@ export default function AboutMe() {
     <div name="about" className="w-full h-screen">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-3xl font-bold inline border-b-4 border-black">
+          <p className="text-4xl font-bold inline border-b-4 border-black">
             About Me:
           </p>
         </div>
 
-        <p>
+        <p className="text-xl mt-20">
           As is often the case with ultra, that period of pain and deep
           exhaustion was chased by an extended flow state. Toward the end of his
           13th lap, he hit top gear. Rocking to playlists he had curated for the
@@ -26,7 +26,7 @@ export default function AboutMe() {
 
         <br />
 
-        <p>
+        <p className="text-xl">
           As is often the case with ultra, that period of pain and deep
           exhaustion was chased by an extended flow state. Toward the end of his
           13th lap, he hit top gear. Rocking to playlists he had curated for the
