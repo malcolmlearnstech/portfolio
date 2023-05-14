@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowSmallRightIcon } from '@heroicons/react/24/outline';
+import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 
 export default function Home() {
   return (
@@ -16,10 +17,10 @@ export default function Home() {
               and Tailwind.
             </p>
             <div>
-              <button>
-                Skills
-                <span>
-                  <ArrowSmallRightIcon />
+              <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-600 to-orange-400 cursor-pointer">
+                Skills &nbsp;
+                <span className="group-hover:rotate-90 duration-300">
+                  <MdOutlineKeyboardArrowRight />
                 </span>
               </button>
             </div>
