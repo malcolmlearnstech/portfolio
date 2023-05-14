@@ -3,9 +3,11 @@ import React from 'react';
 export default function AboutMe() {
   return (
     <div name="about" className="w-full h-screen">
-      <div>
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p>Below will display the About Me section:</p>
+          <p className="text-3xl font-bold inline border-b-4 border-black">
+            About Me:
+          </p>
         </div>
 
         <p>
