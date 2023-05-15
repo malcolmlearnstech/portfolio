@@ -25,7 +25,7 @@ export default function Skills() {
 
           <div>
             <div>
-              <img src={tailwind} alt="" />
+              <img src={node} alt="" />
               <p>Node</p>
             </div>
           </div>
