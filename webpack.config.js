@@ -23,6 +23,30 @@ module.exports = {
         include: path.resolve(__dirname, 'client'),
         use: ['style-loader', 'css-loader', 'postcss-loader'],
       },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: './public/',
+            },
+          },
+        ],
+      },
+      {
+        test: /\.svg$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: './public/',
+            },
+          },
+        ],
+      },
     ],
   },
 };

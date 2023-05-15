@@ -12,6 +12,10 @@ app.use(morgan('dev'));
 
 //setting up static middleware
 app.use(express.static(path.join(__dirname, '../public')));
+app.get('/public/:imgLink', function (req, res) {
+  const media = req.params.imgLink;
+  res.sendFile(path.join(__dirname, `../public/${media}`));
+}); //<== lines 15 thru 18 are responsible for using backend to capture static media files
 
 //setting up parsing middleware
 app.use(bodyParser.json());
