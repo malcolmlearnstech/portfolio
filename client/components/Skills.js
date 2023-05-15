@@ -5,7 +5,7 @@ import git from '../assets/git.svg.png';
 import express from '../assets/expressJS.png';
 import html from '../assets/expressJS.png';
 import css from '../assets/css3.svg.png';
-import sequelize1 from '../assets/sequeliz1.png';
+import sequelize1 from '../assets/sequelize1.png';
 import sequelize2 from '../assets/sequelize2.png';
 import postgres from '../assets/postgreSQL.svg.png';
 import react from '../assets/React.svg.png';
