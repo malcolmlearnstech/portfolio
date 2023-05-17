@@ -10,12 +10,16 @@ requests & responses sent between the client and the server
 const morgan = require('morgan');
 app.use(morgan('dev'));
 
+//PREVIOUS STATIC MIDDLEWARE SETUP:
+// app.use(express.static(path.join(__dirname, '../public')));
+// app.get('/public/images/:imgLink', function (req, res) {
+//   const media = req.params.imgLink;
+//   res.sendFile(path.join(__dirname, `../public/images/${media}`));
+// }); //<== lines 15 thru 18 are responsible for using backend to capture static media files
+
 //setting up static middleware
-app.use(express.static(path.join(__dirname, '../public')));
-app.get('/public/images/:imgLink', function (req, res) {
-  const media = req.params.imgLink;
-  res.sendFile(path.join(__dirname, `../public/images/${media}`));
-}); //<== lines 15 thru 18 are responsible for using backend to capture static media files
+app.use(express.static(path.join(__dirname, '..', '/dist')));
+app.use(express.static(path.join(__dirname, '..', '/public')));
 
 //setting up parsing middleware
 app.use(bodyParser.json());
