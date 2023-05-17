@@ -4,8 +4,9 @@ module.exports = {
   mode: 'development',
   entry: ['./client/index.js'],
   output: {
-    path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+    chunkFilename: '[name].chunk.js',
   },
   devtool: 'source-map',
   module: {
