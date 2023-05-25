@@ -25,7 +25,7 @@ export default function Skills() {
 
           <div>
             <div>
-              <img src={git} alt="" />
+              <img src={postgres} alt="" />
               <p>Node</p>
             </div>
           </div>
