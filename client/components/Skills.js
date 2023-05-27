@@ -27,8 +27,8 @@ export default function Skills() {
 
           <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
             <div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg">
-              <img src={postgres} alt="" />
-              <p>Node</p>
+              <img src={node} alt="" className="w-36 mx-auto" />
+              <p className="mt-4">Node</p>
             </div>
           </div>
         </div>
