@@ -101,7 +101,7 @@ export default function Skills() {
                 className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
               >
                 <img src={src} alt="" className="w-36 mx-auto" />
-                <p className="mt-4">Node</p>
+                <p className="mt-4">{title}</p>
               </div>
             ))}
           </div>
