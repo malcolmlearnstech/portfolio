@@ -14,6 +14,75 @@ import redux2 from '/public/assets/redux3.png';
 import tailwind from '/public/assets/tailwind2.png';
 
 export default function Skills() {
+  const technologies = [
+    {
+      id: 1,
+      src: node,
+      title: 'Node',
+      style: 'shadow-orange-500',
+    },
+    {
+      id: 2,
+      src: javascript,
+      title: 'Javascript',
+      style: 'shadow-orange-500',
+    },
+    {
+      id: 3,
+      src: express,
+      title: 'Express',
+      style: 'shadow-orange-500',
+    },
+    {
+      id: 4,
+      src: git,
+      title: 'Git',
+      style: 'shadow-orange-500',
+    },
+    {
+      id: 5,
+      src: html,
+      title: 'HTML',
+      style: 'shadow-orange-500',
+    },
+    {
+      id: 6,
+      src: css,
+      title: 'CSS',
+      style: 'shadow-orange-500',
+    },
+    {
+      id: 7,
+      src: sequelize2,
+      title: 'Sequelize',
+      style: 'shadow-orange-500',
+    },
+    {
+      id: 8,
+      src: postgres,
+      title: 'PostgreSQL',
+      style: 'shadow-orange-500',
+    },
+    {
+      id: 9,
+      src: react,
+      title: 'React',
+      style: 'shadow-orange-500',
+    },
+    {
+      id: 10,
+      src: redux2,
+      title: 'Redux',
+      style: 'shadow-orange-500',
+    },
+    {
+      id: 11,
+      src: tailwind,
+      title: 'TailwindCSS',
+      style: 'shadow-orange-500',
+    },
+  ];
+
   return (
     <>
       <div name="skills">
