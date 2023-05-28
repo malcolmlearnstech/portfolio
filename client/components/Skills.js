@@ -12,6 +12,7 @@ import react from '/public/assets/react2.png';
 import redux1 from '/public/assets/redux2.png';
 import redux2 from '/public/assets/redux3.png';
 import tailwind from '/public/assets/tailwind2.png';
+import github from '/public/assets/github.png';
 
 export default function Skills() {
   const technologies = [
@@ -35,48 +36,54 @@ export default function Skills() {
     },
     {
       id: 4,
+      src: github,
+      title: 'Github',
+      style: 'shadow-gray-700',
+    },
+    {
+      id: 5,
       src: git,
       title: 'Git',
       style: 'shadow-red-500',
     },
     {
-      id: 5,
+      id: 6,
       src: html,
       title: 'HTML',
       style: 'shadow-red-500',
     },
     {
-      id: 6,
+      id: 7,
       src: css,
       title: 'CSS',
       style: 'shadow-blue-800',
     },
     {
-      id: 7,
+      id: 8,
       src: sequelize2,
       title: 'Sequelize',
       style: 'shadow-blue-600',
     },
     {
-      id: 8,
+      id: 9,
       src: postgres,
       title: 'PostgreSQL',
       style: 'shadow-blue-700',
     },
     {
-      id: 9,
+      id: 10,
       src: react,
       title: 'React',
       style: 'shadow-blue-600',
     },
     {
-      id: 10,
+      id: 11,
       src: redux2,
       title: 'Redux',
       style: 'shadow-purple-700',
     },
     {
-      id: 11,
+      id: 12,
       src: tailwind,
       title: 'TailwindCSS',
       style: 'shadow-teal-500',
