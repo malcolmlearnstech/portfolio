@@ -3,6 +3,12 @@ import CityDiary from '../../public/assets/city-diary-cover.png';
 import defaultCover from '../../public/assets/no-project-cover.png';
 
 export default function Projects() {
+  const portfolio = [
+    { id: 1, projectImage: CityDiary },
+    { id: 2, projectImage: defaultCover },
+    { id: 3, projectImage: defaultCover },
+  ];
+
   return (
     <div name="projects" className="w-full text-black md:h-screen">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
