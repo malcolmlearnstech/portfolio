@@ -4,8 +4,8 @@ import defaultCover from '../../public/assets/no-project-cover.png';
 
 export default function Projects() {
   return (
-    <div name="projects">
-      <div>
+    <div name="projects" className="w-full text-black md:h-screen">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div>
           <p>Projects</p>
           <p>Check out some of my work right here</p>
