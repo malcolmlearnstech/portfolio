@@ -29,7 +29,7 @@ export default function Projects() {
   };
 
   const openGithubLink = (githubLink) => {
-    window.open(demoLink, '_blank');
+    window.open(githubLink, '_blank');
   };
 
   return (
@@ -43,7 +43,7 @@ export default function Projects() {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolio.map(({ id, projectImage, demoLink }) => (
+          {portfolio.map(({ id, projectImage, demoLink, githubLink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={projectImage}
@@ -57,7 +57,10 @@ export default function Projects() {
                 >
                   Demo
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110">
+                <button
+                  onClick={() => openGithubLink(githubLink)}
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110"
+                >
                   Code
                 </button>
               </div>
