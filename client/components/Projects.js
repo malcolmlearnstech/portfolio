@@ -24,6 +24,14 @@ export default function Projects() {
     },
   ];
 
+  const openDemoLink = (demoLink) => {
+    window.open(demoLink, '_blank');
+  };
+
+  const openGithubLink = (githubLink) => {
+    window.open(demoLink, '_blank');
+  };
+
   return (
     <div name="projects" className="w-full text-black md:h-screen">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
@@ -35,7 +43,7 @@ export default function Projects() {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolio.map(({ id, projectImage, githubLink }) => (
+          {portfolio.map(({ id, projectImage, demoLink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={projectImage}
@@ -43,7 +51,10 @@ export default function Projects() {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110">
+                <button
+                  onClick={() => openDemoLink(demoLink)}
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110"
+                >
                   Demo
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110">
