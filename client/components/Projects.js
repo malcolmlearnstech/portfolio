@@ -4,9 +4,24 @@ import defaultCover from '../../public/assets/no-project-cover.png';
 
 export default function Projects() {
   const portfolio = [
-    { id: 1, projectImage: CityDiary },
-    { id: 2, projectImage: defaultCover },
-    { id: 3, projectImage: defaultCover },
+    {
+      id: 1,
+      projectImage: CityDiary,
+      demoLink: 'https://youtu.be/GZ4RHsHUgW8',
+      githubLink: 'https://github.com/HCJM/City-DiaryV2',
+    },
+    {
+      id: 2,
+      projectImage: defaultCover,
+      demoLink: '',
+      githubLink: 'https://github.com/malcolmlearnstech/portfolio',
+    },
+    {
+      id: 3,
+      projectImage: defaultCover,
+      demoLink: '',
+      githubLink: 'https://github.com/malcolmlearnstech/second-boilerplate',
+    },
   ];
 
   return (
@@ -20,7 +35,7 @@ export default function Projects() {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolio.map(({ id, projectImage }) => (
+          {portfolio.map(({ id, projectImage, githubLink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={projectImage}
