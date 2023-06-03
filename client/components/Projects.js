@@ -7,18 +7,21 @@ export default function Projects() {
   const portfolio = [
     {
       id: 1,
+      projectTitle: 'CityDiary',
       projectImage: CityDiary,
       demoLink: 'https://youtu.be/GZ4RHsHUgW8',
       githubLink: 'https://github.com/HCJM/City-DiaryV2',
     },
     {
       id: 2,
+      projectTitle: 'Portfolio',
       projectImage: defaultCover,
       demoLink: '',
       githubLink: 'https://github.com/malcolmlearnstech/portfolio',
     },
     {
       id: 3,
+      projectTitle: 'Personal Boilerplate',
       projectImage: defaultCover,
       demoLink: '',
       githubLink: 'https://github.com/malcolmlearnstech/second-boilerplate',
