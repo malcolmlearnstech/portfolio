@@ -50,7 +50,7 @@ export default function Projects() {
           {portfolio.map(
             ({ id, projectImage, demoLink, githubLink, projectTitle }) => (
               <div>
-                {projectTitle}
+                <div className="text-center">{projectTitle}</div>
                 <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                   <img
                     src={projectImage}
