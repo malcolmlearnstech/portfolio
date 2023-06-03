@@ -1,6 +1,7 @@
 import React from 'react';
 import CityDiary from '../../public/assets/city-diary-cover.png';
-import defaultCover from '../../public/assets/no-project-cover.png';
+import insertImageHere from '../../public/assets/no-project-cover.png';
+import defaultCover from '../../public/assets/default-project-cover.png';
 
 export default function Projects() {
   const portfolio = [
