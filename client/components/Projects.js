@@ -1,23 +1,27 @@
 import React from 'react';
 import CityDiary from '../../public/assets/city-diary-cover.png';
-import defaultCover from '../../public/assets/no-project-cover.png';
+import insertImageHere from '../../public/assets/no-project-cover.png';
+import defaultCover from '../../public/assets/default-project-cover.png';
 
 export default function Projects() {
   const portfolio = [
     {
       id: 1,
+      projectTitle: 'CityDiary',
       projectImage: CityDiary,
       demoLink: 'https://youtu.be/GZ4RHsHUgW8',
       githubLink: 'https://github.com/HCJM/City-DiaryV2',
     },
     {
       id: 2,
+      projectTitle: 'Portfolio',
       projectImage: defaultCover,
       demoLink: '',
       githubLink: 'https://github.com/malcolmlearnstech/portfolio',
     },
     {
       id: 3,
+      projectTitle: 'Personal Boilerplate',
       projectImage: defaultCover,
       demoLink: '',
       githubLink: 'https://github.com/malcolmlearnstech/second-boilerplate',
@@ -43,29 +47,34 @@ export default function Projects() {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolio.map(({ id, projectImage, demoLink, githubLink }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-              <img
-                src={projectImage}
-                alt=""
-                className="rounded-md duration-200 hover:scale-105"
-              />
-              <div className="flex items-center justify-center">
-                <button
-                  onClick={() => openDemoLink(demoLink)}
-                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110"
-                >
-                  Demo
-                </button>
-                <button
-                  onClick={() => openGithubLink(githubLink)}
-                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110"
-                >
-                  Code
-                </button>
+          {portfolio.map(
+            ({ id, projectImage, demoLink, githubLink, projectTitle }) => (
+              <div>
+                <div className="text-center">{projectTitle}</div>
+                <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+                  <img
+                    src={projectImage}
+                    alt=""
+                    className="rounded-md duration-200 hover:scale-105"
+                  />
+                  <div className="flex items-center justify-center">
+                    <button
+                      onClick={() => openDemoLink(demoLink)}
+                      className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110"
+                    >
+                      Demo
+                    </button>
+                    <button
+                      onClick={() => openGithubLink(githubLink)}
+                      className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110"
+                    >
+                      Code
+                    </button>
+                  </div>
+                </div>
               </div>
-            </div>
-          ))}
+            )
+          )}
         </div>
       </div>
     </div>
