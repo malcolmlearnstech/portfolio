@@ -105,7 +105,8 @@ export default function Skills() {
             {technologies.map(({ id, src, title, style }) => (
               <div
                 key={id}
-                className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+                className={`shadow-md hover:scale-95
+                 duration-500 py-2 rounded-lg ${style}`}
               >
                 <img src={src} alt="" className="w-36 mx-auto" />
                 <p className="mt-4">{title}</p>
