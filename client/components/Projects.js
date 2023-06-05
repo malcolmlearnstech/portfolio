@@ -64,6 +64,7 @@ export default function Projects() {
                     >
                       Demo
                     </button>
+
                     <button
                       onClick={() => openGithubLink(githubLink)}
                       className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110"
