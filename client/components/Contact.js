@@ -6,8 +6,14 @@ export default function Contact() {
       <div>
         <div>
           <div>
-            <p></p>
-            <p></p>
+            <p>Contact</p>
+            <p>Feel free to reach out and get in touch!</p>
+          </div>
+
+          <div>
+            <form action="">
+              <input type="text" />
+            </form>
           </div>
         </div>
       </div>
