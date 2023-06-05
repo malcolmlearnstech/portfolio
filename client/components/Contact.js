@@ -24,6 +24,11 @@ export default function Contact() {
                 placeholder="Enter your email"
                 className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
               />
+              <textarea
+                name="message"
+                rows="10"
+                className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              ></textarea>
             </form>
           </div>
         </div>
