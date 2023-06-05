@@ -3,9 +3,9 @@ import React from 'react';
 export default function Contact() {
   return (
     <>
-      <div name="contact" className="w-full h-screen text-white">
-        <div>
-          <div>
+      <div name="contact" className="w-full h-screen text-black p-4">
+        <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
+          <div className="pb-8">
             <p>Contact</p>
             <p>Feel free to reach out and get in touch!</p>
           </div>
