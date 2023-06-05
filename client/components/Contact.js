@@ -29,6 +29,8 @@ export default function Contact() {
                 rows="10"
                 className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
               ></textarea>
+
+              <button className="">Let's talk</button>
             </form>
           </div>
         </div>
