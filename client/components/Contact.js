@@ -12,7 +12,7 @@ export default function Contact() {
             <p className="py-6">Feel free to reach out and get in touch!</p>
           </div>
 
-          <div>
+          <div className="flex justify-center items-center">
             <form action="" className="flex flex-col w-full md:w-1/2">
               <input
                 type="text"
