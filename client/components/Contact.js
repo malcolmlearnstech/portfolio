@@ -9,11 +9,11 @@ export default function Contact() {
             <p className="text-4xl font-bold inline border-b-4 border-gray-500">
               Contact
             </p>
-            <p>Feel free to reach out and get in touch!</p>
+            <p className="py-6">Feel free to reach out and get in touch!</p>
           </div>
 
           <div>
-            <form action="">
+            <form action="" className="flex flex-col w-full md:w-1/2">
               <input
                 type="text"
                 name="name"
