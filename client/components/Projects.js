@@ -51,7 +51,7 @@ export default function Projects() {
             ({ id, projectImage, demoLink, githubLink, projectTitle }) => (
               <div key={id}>
                 <div className="text-center">{projectTitle}</div>
-                <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+                <div className="shadow-md shadow-gray-600 rounded-lg">
                   <img
                     src={projectImage}
                     alt=""
