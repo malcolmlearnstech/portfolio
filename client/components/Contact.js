@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 export default function Contact() {
@@ -9,8 +9,8 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID',
-        'YOUR_TEMPLATE_ID',
+        'service_44dh806',
+        'template_qwkf30a',
         form.current,
         'YOUR_PUBLIC_KEY'
       )
