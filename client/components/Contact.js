@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 export default function Contact() {
@@ -9,19 +9,21 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID',
-        'YOUR_TEMPLATE_ID',
+        'service_iqylzdi',
+        'template_qwkf30a',
         form.current,
-        'YOUR_PUBLIC_KEY'
+        '1AWR7O-C3BCy0miz5'
       )
       .then(
         (result) => {
           console.log(result.text);
+          console.log('message sent');
         },
         (error) => {
           console.log(error.text);
         }
       );
+    form.current.reset();
   };
 
   return (
@@ -36,7 +38,12 @@ export default function Contact() {
           </div>
 
           <div className="flex justify-center items-center">
-            <form action="" className="flex flex-col w-full md:w-1/2">
+            <form
+              ref={form}
+              onSubmit={sendEmail}
+              action=""
+              className="flex flex-col w-full md:w-1/2"
+            >
               <input
                 type="text"
                 name="name"
