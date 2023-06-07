@@ -49,7 +49,7 @@ export default function Projects() {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolio.map(
             ({ id, projectImage, demoLink, githubLink, projectTitle }) => (
-              <div>
+              <div key={id}>
                 <div className="text-center">{projectTitle}</div>
                 <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                   <img
