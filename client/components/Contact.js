@@ -17,11 +17,13 @@ export default function Contact() {
       .then(
         (result) => {
           console.log(result.text);
+          console.log('message sent');
         },
         (error) => {
           console.log(error.text);
         }
       );
+    form.current.reset();
   };
 
   return (
