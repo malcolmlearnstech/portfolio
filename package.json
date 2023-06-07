@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/malcolmlearnstech/portfolio#readme",
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^2.0.17",
     "@reduxjs/toolkit": "^1.9.3",
