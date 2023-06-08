@@ -74,9 +74,11 @@ export default function Contact() {
                   </button>
                 </form>
               </div>
-
-              <div className="md:w-1/2 flex md:flex-col justify-center items-center">
-                Test Text to show on right side
+              <div className="md:w-1/2 flex flex-col justify-center items-center">
+                <div>Test Text to show on right side</div>
+                <div>
+                  <FaLinkedinIn /> <FaGithub /> <FaTwitter />
+                </div>
               </div>
             </div>
           </div>
