@@ -21,6 +21,10 @@ export default function Contact() {
     },
   ];
 
+  const openSocialLink = (link) => {
+    window.open(link, '_blank');
+  };
+
   const form = useRef();
 
   const sendEmail = (e) => {
