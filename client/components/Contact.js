@@ -94,7 +94,7 @@ export default function Contact() {
               </div>
               <div className="md:w-1/2 flex flex-col justify-center items-center">
                 {/* <div>Test Text to show on right side</div> */}
-                <div className="flex justify-center items-center space-x-8 pb-40">
+                <div className="flex justify-center items-center space-x-8 pb-40 pl-48">
                   {socialContacts.map(({ id, logo, link }) => (
                     <div key={id}>{logo}</div>
                   ))}
