@@ -6,14 +6,17 @@ export default function Contact() {
   const socialContacts = [
     {
       id: 1,
+      logo: FaLinkedin,
       link: 'https://www.linkedin.com/in/malcolmrm/',
     },
     {
       id: 2,
+      logo: FaGithub,
       link: 'https://github.com/malcolmlearnstech',
     },
     {
       id: 3,
+      logo: FaTwitter,
       link: 'https://github.com/malcolmlearnstech',
     },
   ];
@@ -91,9 +94,14 @@ export default function Contact() {
               </div>
               <div className="md:w-1/2 flex flex-col justify-center items-center">
                 <div>Test Text to show on right side</div>
-                <div className="flex justify-center items-center space-x-4">
-                  <FaLinkedinIn /> <FaGithub /> <FaTwitter />
-                </div>
+                {socialContacts.map(({ id, logo, link }) => (
+                  <div
+                    key={id}
+                    className="flex justify-center items-center space-x-4"
+                  >
+                    {logo}
+                  </div>
+                ))}
               </div>
             </div>
           </div>
