@@ -73,6 +73,10 @@ export default function Contact() {
                   </button>
                 </form>
               </div>
+
+              <div className="flex justify-end">
+                Test Text to show on right side
+              </div>
             </span>
           </div>
         </div>
