@@ -17,7 +17,7 @@ export default function Contact() {
     {
       id: 3,
       logo: <FaTwitter size={50} />,
-      link: 'https://github.com/malcolmlearnstech',
+      link: 'https://twitter.com/mrmlearnstech',
     },
   ];
 
