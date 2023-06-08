@@ -3,6 +3,21 @@ import emailjs from '@emailjs/browser';
 import { FaLinkedinIn, FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
 
 export default function Contact() {
+  const socialContacts = [
+    {
+      id: 1,
+      link: 'https://www.linkedin.com/in/malcolmrm/',
+    },
+    {
+      id: 2,
+      link: 'https://github.com/malcolmlearnstech',
+    },
+    {
+      id: 3,
+      link: 'https://github.com/malcolmlearnstech',
+    },
+  ];
+
   const form = useRef();
 
   const sendEmail = (e) => {
