@@ -6,7 +6,7 @@ export default function Contact() {
   const socialContacts = [
     {
       id: 1,
-      logo: <FaLinkedin />,
+      logo: <FaLinkedinIn />,
       link: 'https://www.linkedin.com/in/malcolmrm/',
     },
     {
