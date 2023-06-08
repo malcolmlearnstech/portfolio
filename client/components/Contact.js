@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { FaLinkedinIn, FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
 
 export default function Contact() {
   const form = useRef();
@@ -73,9 +74,11 @@ export default function Contact() {
                   </button>
                 </form>
               </div>
-
-              <div className="md:w-1/2 flex md:flex-col justify-center items-center">
-                Test Text to show on right side
+              <div className="md:w-1/2 flex flex-col justify-center items-center">
+                <div>Test Text to show on right side</div>
+                <div className="flex justify-center items-center space-x-4">
+                  <FaLinkedinIn /> <FaGithub /> <FaTwitter />
+                </div>
               </div>
             </div>
           </div>
