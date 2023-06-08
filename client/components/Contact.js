@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { FaLinkedinIn, FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
+import { FaLinkedinIn, FaGithub, FaTwitter } from 'react-icons/fa';
 
 export default function Contact() {
   const socialContacts = [
@@ -17,9 +17,13 @@ export default function Contact() {
     {
       id: 3,
       logo: <FaTwitter size={50} />,
-      link: 'https://github.com/malcolmlearnstech',
+      link: 'https://twitter.com/mrmlearnstech',
     },
   ];
+
+  const openSocialLink = (link) => {
+    window.open(link, '_blank');
+  };
 
   const form = useRef();
 
@@ -92,11 +96,13 @@ export default function Contact() {
                   </button>
                 </form>
               </div>
-              <div className="md:w-1/2 flex flex-col justify-center items-center">
+              <div className="md:w-1/2 flex flex-col justify-center items-center pt-10">
                 {/* <div>Test Text to show on right side</div> */}
-                <div className="flex justify-center items-center space-x-8 pb-40">
+                <div className="flex justify-center items-center space-x-20 pb-40">
                   {socialContacts.map(({ id, logo, link }) => (
-                    <div key={id}>{logo}</div>
+                    <button key={id} onClick={() => openSocialLink(link)}>
+                      {logo}
+                    </button>
                   ))}
                 </div>
               </div>
