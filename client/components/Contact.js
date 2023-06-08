@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { FaLinkedinIn, FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
 
 export default function Contact() {
   const form = useRef();
