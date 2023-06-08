@@ -38,8 +38,8 @@ export default function Contact() {
           </div>
 
           <div>
-            <div className="flex flex-wrap">
-              <div className="md:w-3/5">
+            <div className="flex flex-col md:flex-row">
+              <div className="md:w-1/2">
                 <form
                   ref={form}
                   onSubmit={sendEmail}
@@ -74,7 +74,7 @@ export default function Contact() {
                 </form>
               </div>
 
-              <div className="md:w-2/5 flex justify-end item">
+              <div className="md:w-1/2 flex md:flex-col justify-center items-center">
                 Test Text to show on right side
               </div>
             </div>
