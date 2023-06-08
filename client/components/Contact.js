@@ -96,9 +96,9 @@ export default function Contact() {
                   </button>
                 </form>
               </div>
-              <div className="md:w-1/2 flex flex-col justify-center items-center">
+              <div className="md:w-1/2 flex flex-col justify-center items-center pt-10">
                 {/* <div>Test Text to show on right side</div> */}
-                <div className="flex justify-center items-center space-x-8 pb-40 pl-48">
+                <div className="flex justify-center items-center space-x-20 pb-40">
                   {socialContacts.map(({ id, logo, link }) => (
                     <button key={id} onClick={() => openSocialLink(link)}>
                       {logo}
