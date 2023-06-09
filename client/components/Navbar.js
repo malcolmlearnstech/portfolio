@@ -42,6 +42,8 @@ export default function Navbar() {
                         <ScrollLink
                           key={item.name}
                           to={item.href}
+                          smooth
+                          duration={500}
                           className={classNames(
                             item.current
                               ? 'bg-gray-900 text-white font-serif'
