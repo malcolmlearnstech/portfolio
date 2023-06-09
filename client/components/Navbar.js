@@ -3,6 +3,7 @@ import { Fragment } from 'react';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
 import { Link as ScrollLink } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 const navigation = [
   { name: 'Home', href: 'home', current: true },
@@ -65,10 +66,10 @@ export default function Navbar() {
             <Disclosure.Panel className="sm:hidden">
               <div className="space-y-1 px-2 pb-3 pt-2">
                 {navigation.map((nav) => (
-                  <Disclosure.Button
+                  <ScrollLink
                     key={nav.name}
-                    as="a"
-                    href={nav.href}
+                    to={nav.href}
+                    offset={-80}
                     className={classNames(
                       nav.current
                         ? 'bg-gray-900 text-white'
@@ -78,7 +79,7 @@ export default function Navbar() {
                     aria-current={nav.current ? 'page' : undefined}
                   >
                     {nav.name}
-                  </Disclosure.Button>
+                  </ScrollLink>
                 ))}
               </div>
             </Disclosure.Panel>
