@@ -98,7 +98,7 @@ export default function Contact() {
                   </div>
                 </form>
               </div>
-              <div className="md:w-1/2 flex flex-col justify-center items-center pt-10 md:items-end">
+              <div className="md:w-1/2 flex flex-col justify-center items-center pt-24 md:items-end">
                 {/* <div>Test Text to show on right side</div> */}
                 <div className="flex justify-center items-center space-x-20 pb-40">
                   {socialContacts.map(({ id, logo, link }) => (
