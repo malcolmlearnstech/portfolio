@@ -88,12 +88,14 @@ export default function Contact() {
                     className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none"
                   ></textarea>
 
-                  <button
-                    type="submit"
-                    className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mr-auto flex items-center rounded-md hover:scale-110 duration-300"
-                  >
-                    Let's Talk
-                  </button>
+                  <div className="flex mx-auto md:ml-0">
+                    <button
+                      type="submit"
+                      className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-10 flex rounded-md hover:scale-110 duration-300"
+                    >
+                      Let's Talk
+                    </button>
+                  </div>
                 </form>
               </div>
               <div className="md:w-1/2 flex flex-col justify-center items-center pt-10 md:items-end">
