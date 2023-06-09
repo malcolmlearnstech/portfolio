@@ -53,7 +53,7 @@ export default function Navbar() {
                           )}
                           aria-current={item.current ? 'page' : undefined}
                         >
-                          {item.name}
+                          <button>{item.name}</button>
                         </ScrollLink>
                       ))}
                     </div>
