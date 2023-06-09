@@ -44,6 +44,7 @@ export default function Navbar() {
                           to={item.href}
                           smooth
                           duration={500}
+                          offset={-80}
                           className={classNames(
                             item.current
                               ? 'bg-gray-900 text-white font-serif'
