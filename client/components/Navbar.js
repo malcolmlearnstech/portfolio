@@ -39,9 +39,9 @@ export default function Navbar() {
                   <div className="hidden sm:mr-6 sm:block">
                     <div className="flex flex-nowrap space-x-20 leading-loose sm:m-auto">
                       {navigation.map((item) => (
-                        <a
+                        <ScrollLink
                           key={item.name}
-                          href={item.href}
+                          to={item.href}
                           className={classNames(
                             item.current
                               ? 'bg-gray-900 text-white font-serif'
@@ -51,7 +51,7 @@ export default function Navbar() {
                           aria-current={item.current ? 'page' : undefined}
                         >
                           {item.name}
-                        </a>
+                        </ScrollLink>
                       ))}
                     </div>
                   </div>
