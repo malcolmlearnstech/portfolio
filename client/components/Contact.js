@@ -105,7 +105,11 @@ export default function Contact() {
                 {/* <div>Test Text to show on right side</div> */}
                 <div className="flex justify-center items-center space-x-20 pb-40">
                   {socialContacts.map(({ id, logo, link }) => (
-                    <button key={id} onClick={() => openSocialLink(link)}>
+                    <button
+                      key={id}
+                      onClick={() => openSocialLink(link)}
+                      className="hover:scale-110 duration-500"
+                    >
                       {logo}
                     </button>
                   ))}
