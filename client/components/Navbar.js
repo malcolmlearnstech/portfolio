@@ -38,22 +38,22 @@ export default function Navbar() {
                 <div className="absolute bg-blue-300 inset-y-0 w-4/5 flex justify-center items-center sm:static sm:inset-auto sm:m-auto sm:pr-0">
                   <div className="hidden sm:mr-6 sm:block">
                     <div className="flex flex-nowrap space-x-20 leading-loose sm:m-auto">
-                      {navigation.map((item) => (
+                      {navigation.map((nav) => (
                         <ScrollLink
-                          key={item.name}
-                          to={item.href}
+                          key={nav.name}
+                          to={nav.href}
                           smooth
                           duration={500}
                           offset={-80}
                           className={classNames(
-                            item.current
+                            nav.current
                               ? 'bg-gray-900 text-white font-serif'
                               : 'text-gray-300 hover:bg-teal-300 hover:text-white hover:scale-105 duration-150 font-serif',
                             'rounded-md px-3 py-2 text-xl font-medium'
                           )}
-                          aria-current={item.current ? 'page' : undefined}
+                          aria-current={nav.current ? 'page' : undefined}
                         >
-                          {item.name}
+                          <button>{nav.name}</button>
                         </ScrollLink>
                       ))}
                     </div>
@@ -64,20 +64,20 @@ export default function Navbar() {
 
             <Disclosure.Panel className="sm:hidden">
               <div className="space-y-1 px-2 pb-3 pt-2">
-                {navigation.map((item) => (
+                {navigation.map((nav) => (
                   <Disclosure.Button
-                    key={item.name}
+                    key={nav.name}
                     as="a"
-                    href={item.href}
+                    href={nav.href}
                     className={classNames(
-                      item.current
+                      nav.current
                         ? 'bg-gray-900 text-white'
                         : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                       'block rounded-md px-3 py-2 text-base font-medium'
                     )}
-                    aria-current={item.current ? 'page' : undefined}
+                    aria-current={nav.current ? 'page' : undefined}
                   >
-                    {item.name}
+                    {nav.name}
                   </Disclosure.Button>
                 ))}
               </div>
