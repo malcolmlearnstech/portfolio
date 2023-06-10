@@ -68,7 +68,7 @@ export default function Skills() {
       id: 9,
       src: postgres,
       title: 'PostgreSQL',
-      style: 'shadow-blue-900',
+      style: 'shadow-blue-800',
     },
     {
       id: 10,
