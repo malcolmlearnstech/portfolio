@@ -16,14 +16,14 @@ export default function Projects() {
       id: 2,
       projectTitle: 'Portfolio',
       projectImage: defaultCover,
-      demoLink: '',
+      demoLink: 'https://github.com/malcolmlearnstech/portfolio',
       githubLink: 'https://github.com/malcolmlearnstech/portfolio',
     },
     {
       id: 3,
       projectTitle: 'Personal Boilerplate',
       projectImage: defaultCover,
-      demoLink: '',
+      demoLink: 'https://github.com/malcolmlearnstech/second-boilerplate',
       githubLink: 'https://github.com/malcolmlearnstech/second-boilerplate',
     },
   ];
