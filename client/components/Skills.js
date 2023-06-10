@@ -20,7 +20,7 @@ export default function Skills() {
       id: 1,
       src: node,
       title: 'Node',
-      style: 'shadow-green-500',
+      style: 'shadow-green-600',
     },
     {
       id: 2,
@@ -38,7 +38,7 @@ export default function Skills() {
       id: 4,
       src: github,
       title: 'Github',
-      style: 'shadow-gray-700',
+      style: 'shadow-gray-800',
     },
     {
       id: 5,
@@ -86,7 +86,7 @@ export default function Skills() {
       id: 12,
       src: tailwind,
       title: 'TailwindCSS',
-      style: 'shadow-teal-500',
+      style: 'shadow-teal-600',
     },
   ];
 
