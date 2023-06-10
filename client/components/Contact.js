@@ -60,7 +60,9 @@ export default function Contact() {
             <p className="text-4xl font-bold inline border-b-4 border-gray-500">
               Contact Me
             </p>
-            <p className="py-6">Feel free to reach out and get in touch!</p>
+            <p className="pt-4 pb-10">
+              Feel free to reach out and get in touch!
+            </p>
           </div>
 
           <div>
