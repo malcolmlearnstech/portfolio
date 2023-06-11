@@ -57,7 +57,7 @@ export default function Contact() {
       >
         <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
           <div className="pb-8">
-            <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+            <p className="text-4xl font-bold inline border-b-4 border-black">
               Contact Me
             </p>
             <p className="pt-4 pb-10">
