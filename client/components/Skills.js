@@ -95,7 +95,7 @@ export default function Skills() {
       <div name="skills">
         <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-black">
           <div>
-            <p className="text-4xl font-bold border-b-4 border-gray-600 p-2 inline">
+            <p className="text-4xl font-bold border-b-4 border-black inline">
               Skills
             </p>
             <p className="pt-6 pb-20">Technologies I've worked with</p>
