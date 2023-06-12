@@ -93,7 +93,7 @@ export default function Skills() {
   return (
     <>
       <div name="skills">
-        <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-black">
+        <div className="max-w-screen-lg mx-auto p-4 pt-10 flex flex-col justify-center w-full h-full text-black">
           <div>
             <p className="text-4xl font-bold border-b-4 border-black inline">
               Skills
@@ -101,7 +101,7 @@ export default function Skills() {
             <p className="pt-6 pb-20">Technologies I've worked with</p>
           </div>
 
-          <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+          <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center mb-52 px-12 sm:px-0">
             {technologies.map(({ id, src, title, style }) => (
               <div
                 key={id}
