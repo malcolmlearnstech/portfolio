@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function AboutMe() {
   return (
-    <div name="about" className="w-full h-full mx-auto mb-10">
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+    <div name="about" className="w-full h-full mx-auto mb-12">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-screen">
+        <div className="pb-2">
           <p className="text-4xl font-bold inline border-b-4 border-black">
             About Me
           </p>
