@@ -38,15 +38,15 @@ export default function Projects() {
 
   return (
     <div name="projects" className="w-full text-black md:h-screen">
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col w-full h-full justify-center">
+        <div className="pb-0">
           <p className="text-4xl font-bold inline border-b-4 border-black">
             Projects
           </p>
-          <p className="pt-4 pb-14">Check out some of my work right here</p>
+          <p className="pt-4 pb-7">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 mb-16 sm:px-0">
           {portfolio.map(
             ({ id, projectImage, demoLink, githubLink, projectTitle }) => (
               <div key={id}>

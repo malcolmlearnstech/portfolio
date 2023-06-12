@@ -53,7 +53,7 @@ export default function Contact() {
     <>
       <div
         name="contact"
-        className="w-full md:h-screen text-black p-4 mt-10 md:mt-0"
+        className="w-full md:h-screen text-black p-4 mt-20 md:mt-0"
       >
         <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
           <div className="pb-8">
