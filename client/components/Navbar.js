@@ -43,24 +43,44 @@ export default function Navbar() {
                 <div className="absolute bg-blue-300 inset-y-0 w-4/5 flex justify-center items-center sm:static sm:inset-auto sm:m-auto sm:pr-0">
                   <div className="hidden sm:mr-6 sm:block">
                     <div className="flex flex-nowrap space-x-20 leading-loose sm:m-auto">
-                      {navigation.map((nav) => (
-                        <ScrollLink
-                          key={nav.name}
-                          to={nav.href}
-                          smooth
-                          duration={500}
-                          offset={-80}
-                          className={classNames(
-                            nav.current
-                              ? 'bg-gray-900 text-white font-serif'
-                              : 'text-gray-300 hover:bg-teal-300 hover:text-white hover:scale-105 duration-150 font-serif',
-                            'rounded-md px-3 py-2 text-xl font-medium'
-                          )}
-                          aria-current={nav.current ? 'page' : undefined}
-                        >
-                          <button>{nav.name}</button>
-                        </ScrollLink>
-                      ))}
+                      {navigation.map((nav) => {
+                        if (nav.name === 'Resume') {
+                          return (
+                            <button
+                              key={nav.name}
+                              onClick={openResumeLink}
+                              className={classNames(
+                                nav.current
+                                  ? 'bg-gray-900 text-white font-serif'
+                                  : 'text-gray-300 hover:bg-teal-300 hover:text-white hover:scale-105 duration-150 font-serif',
+                                'rounded-md px-3 py-2 text-xl font-medium'
+                              )}
+                              aria-current={nav.current ? 'page' : undefined}
+                            >
+                              {nav.name}
+                            </button>
+                          );
+                        } else {
+                          return (
+                            <ScrollLink
+                              key={nav.name}
+                              to={nav.href}
+                              smooth
+                              duration={500}
+                              offset={-80}
+                              className={classNames(
+                                nav.current
+                                  ? 'bg-gray-900 text-white font-serif'
+                                  : 'text-gray-300 hover:bg-teal-300 hover:text-white hover:scale-105 duration-150 font-serif',
+                                'rounded-md px-3 py-2 text-xl font-medium'
+                              )}
+                              aria-current={nav.current ? 'page' : undefined}
+                            >
+                              <button>{nav.name}</button>
+                            </ScrollLink>
+                          );
+                        }
+                      })}
                     </div>
                   </div>
                 </div>
