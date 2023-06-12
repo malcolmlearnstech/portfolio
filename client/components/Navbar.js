@@ -6,7 +6,7 @@ import { Link as ScrollLink } from 'react-scroll';
 
 const navigation = [
   { name: 'Home', href: 'home', current: true },
-  { name: 'About Me', href: 'about', current: false },
+  { name: 'About', href: 'about', current: false },
   { name: 'Skills', href: 'skills', current: false },
   { name: 'Projects', href: 'projects', current: false },
   { name: 'Contact', href: 'contact', current: false },
@@ -67,7 +67,7 @@ export default function Navbar() {
                               to={nav.href}
                               smooth
                               duration={500}
-                              offset={-80}
+                              offset={-50}
                               className={classNames(
                                 nav.current
                                   ? 'bg-gray-900 text-white font-serif'
@@ -93,7 +93,7 @@ export default function Navbar() {
                   <ScrollLink
                     key={nav.name}
                     to={nav.href}
-                    offset={-80}
+                    offset={-60}
                     className={classNames(
                       nav.current
                         ? 'bg-gray-900 text-white'
