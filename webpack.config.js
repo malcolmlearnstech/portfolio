@@ -38,6 +38,17 @@ module.exports = {
         ],
         type: 'javascript/auto',
       },
+      {
+        test: /\.pdf$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+            },
+          },
+        ],
+      },
     ],
   },
   plugins: [
