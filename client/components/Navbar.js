@@ -18,6 +18,11 @@ function classNames(...classes) {
 }
 
 export default function Navbar() {
+  const openResumeLink = () => {
+    const resumePath = '/mmResume.pdf';
+    window.open(resumePath, '_blank');
+  };
+
   return (
     <div className="sticky top-0 z-10">
       <Disclosure as="nav" className="bg-sky-950">
