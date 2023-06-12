@@ -10,7 +10,7 @@ const navigation = [
   { name: 'Skills', href: 'skills', current: false },
   { name: 'Projects', href: 'projects', current: false },
   { name: 'Contact', href: 'contact', current: false },
-  { name: 'Resume', href: '/public/mmResume.pdf', current: false },
+  { name: 'Resume', href: '/mmResume.pdf', current: false },
 ];
 
 function classNames(...classes) {
