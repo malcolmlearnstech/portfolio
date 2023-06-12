@@ -1,6 +1,6 @@
 import React from 'react';
-import { ArrowSmallRightIcon } from '@heroicons/react/24/outline';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
+import resume from '../../public/mmResume.pdf';
 
 export default function Home() {
   return (
