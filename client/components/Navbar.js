@@ -3,7 +3,6 @@ import { Fragment } from 'react';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
 import { Link as ScrollLink } from 'react-scroll';
-import { Link } from 'react-router-dom';
 
 const navigation = [
   { name: 'Home', href: 'home', current: true },
@@ -11,6 +10,7 @@ const navigation = [
   { name: 'Skills', href: 'skills', current: false },
   { name: 'Projects', href: 'projects', current: false },
   { name: 'Contact', href: 'contact', current: false },
+  { name: 'Resume', href: '/public/mmResume.pdf', current: false },
 ];
 
 function classNames(...classes) {
@@ -18,7 +18,6 @@ function classNames(...classes) {
 }
 
 export default function Navbar() {
-  //console.log(Disclosure);
   return (
     <div className="sticky top-0 z-10">
       <Disclosure as="nav" className="bg-sky-950">
