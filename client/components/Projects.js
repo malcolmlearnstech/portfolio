@@ -2,6 +2,7 @@ import React from 'react';
 import CityDiary from '../../public/assets/city-diary-cover.png';
 import insertImageHere from '../../public/assets/no-project-cover.png';
 import defaultCover from '../../public/assets/default-project-cover.png';
+import personalPortfolio from '../../public/assets/Portfolio-preview.png';
 
 export default function Projects() {
   const portfolio = [
@@ -14,8 +15,8 @@ export default function Projects() {
     },
     {
       id: 2,
-      projectTitle: 'Portfolio',
-      projectImage: defaultCover,
+      projectTitle: 'Personal Portfolio',
+      projectImage: personalPortfolio,
       demoLink: 'https://github.com/malcolmlearnstech/portfolio',
       githubLink: 'https://github.com/malcolmlearnstech/portfolio',
     },
