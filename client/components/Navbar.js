@@ -10,7 +10,7 @@ const navigation = [
   { name: 'Skills', href: 'skills', current: false },
   { name: 'Projects', href: 'projects', current: false },
   { name: 'Contact', href: 'contact', current: false },
-  { name: 'Resume', href: '/mmResume.pdf', current: true },
+  { name: 'Resume', href: '/mmResume2.pdf', current: true },
 ];
 
 function classNames(...classes) {
@@ -19,7 +19,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   const openResumeLink = () => {
-    const resumePath = '/mmResume.pdf';
+    const resumePath = '/mmResume2.pdf';
     window.open(resumePath, '_blank');
   };
 
