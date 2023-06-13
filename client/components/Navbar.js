@@ -5,12 +5,12 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
 import { Link as ScrollLink } from 'react-scroll';
 
 const navigation = [
-  { name: 'Home', href: 'home', current: true },
+  { name: 'Home', href: 'home', current: false },
   { name: 'About', href: 'about', current: false },
   { name: 'Skills', href: 'skills', current: false },
   { name: 'Projects', href: 'projects', current: false },
   { name: 'Contact', href: 'contact', current: false },
-  { name: 'Resume', href: '/mmResume.pdf', current: false },
+  { name: 'Resume', href: '/mmResume.pdf', current: true },
 ];
 
 function classNames(...classes) {
@@ -51,7 +51,7 @@ export default function Navbar() {
                               onClick={openResumeLink}
                               className={classNames(
                                 nav.current
-                                  ? 'bg-gray-900 text-white font-serif'
+                                  ? 'bg-gradient-to-r from-cyan-600 to-blue-600 text-white font-serif'
                                   : 'text-gray-300 hover:bg-teal-300 hover:text-white hover:scale-105 duration-150 font-serif',
                                 'rounded-md px-3 py-2 text-xl font-medium'
                               )}
