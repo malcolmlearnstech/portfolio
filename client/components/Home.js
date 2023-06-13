@@ -1,6 +1,7 @@
 import React from 'react';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import resume from '../../public/mmResume.pdf';
+import resume2 from '../../public/mmResume2.pdf';
 
 export default function Home() {
   return (
@@ -17,8 +18,8 @@ export default function Home() {
               and Tailwind.
             </p>
             <div>
-              <a href={resume} target="_blank" rel="noopener noreferrer">
-                <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-600 to-orange-400 cursor-pointer">
+              <a href={resume2} target="_blank" rel="noopener noreferrer">
+                <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-600 cursor-pointer">
                   View My Resume
                   {/* <span className="group-hover:rotate-90 duration-300">
                   <MdOutlineKeyboardArrowRight size={20} className="ml-1" />
