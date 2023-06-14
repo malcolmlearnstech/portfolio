@@ -96,7 +96,7 @@ export default function Navbar() {
                     offset={-60}
                     className={classNames(
                       nav.current
-                        ? 'bg-gray-900 text-white'
+                        ? 'bg-gradient-to-r from-cyan-600 to-blue-600 text-white'
                         : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                       'block rounded-md px-3 py-2 text-base font-medium'
                     )}
