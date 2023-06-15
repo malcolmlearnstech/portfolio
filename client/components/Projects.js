@@ -18,7 +18,7 @@ export default function Projects() {
       id: 2,
       projectTitle: 'Personal Portfolio',
       projectImage: personalPortfolio,
-      demoLink: 'https://digitalmack.info/',
+      demoLink: 'https://digitalmack.info',
       githubLink: 'https://github.com/malcolmlearnstech/portfolio',
     },
     {
