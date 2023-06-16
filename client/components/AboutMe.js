@@ -14,11 +14,11 @@ export default function AboutMe() {
           I'm a fullstack engineer, born and raised in New York City. With 5+
           years of experience in operations and administrative support, I've
           developed a strong foundation in organizational efficiency and probelm
-          solving. Throughout much of professional career, and even before that,
-          I've always found my interests leaning toward technology. Recognizing
-          that passion, I decided to bet on myself and pursue a career in the
-          tech industry. This lead to my enrollment in the Future Code
-          Fellowship at Fullstack Academy. During my time in Future Code, I
+          solving. Throughout much of my professional career, and even before
+          that, I've always found my interests leaning toward technology.
+          Recognizing that passion, I decided to bet on myself and pursue a
+          career in the tech industry. This lead to my enrollment in the Future
+          Code Fellowship at Fullstack Academy. During my time in Future Code, I
           honed my skills in web development and gained hands-on experience with
           both front-end and back-end technologies. When I'm not in the depths
           of VS Code however, I typically enjoy spending my time biking along
