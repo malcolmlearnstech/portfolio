@@ -11,13 +11,14 @@ export default function AboutMe() {
         </div>
 
         <p className="text-xl mt-20">
-          I'm a fullstack engineer, born and raised in New York. With 5+ years
-          of experience in operations and administrative support, I've developed
-          a strong foundation in organizational efficiency and probelm solving.
-          However, I've always found my interested lying toward technology.
-          Recognizing that passion, I decided to take a leap of faith and pursue
-          a career in the tech industry. This lead to me enrolling in Future
-          Code at Fullstack Academy. During my time in Future Code, I honed I
+          I'm a fullstack engineer, born and raised in New York City. With 5+
+          years of experience in operations and administrative support, I've
+          developed a strong foundation in organizational efficiency and probelm
+          solving. Throughout much of professional career, and even before that,
+          I've always found my interests leaning toward technology. Recognizing
+          that passion, I decided to bet on myself and pursue a career in the
+          tech industry. This lead to my enrollment in the Future Code
+          Fellowship at Fullstack Academy. During my time in Future Code, I
           honed my skills in web development and gained hands-on experience with
           both front-end and back-end technologies. When I'm not in the depths
           of VS Code however, I typically enjoy spending my time biking along
@@ -28,6 +29,7 @@ export default function AboutMe() {
         <br />
 
         {/* <p className="text-xl">
+        leap of faith
           As is often the case with ultra, that period of pain and deep
           exhaustion was chased by an extended flow state. Toward the end of his
           13th lap, he hit top gear. Rocking to playlists he had curated for the
