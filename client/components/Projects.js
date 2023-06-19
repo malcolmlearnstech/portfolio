@@ -48,7 +48,7 @@ export default function Projects() {
           <p className="pt-4 pb-7">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 mb-16 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 mb-24 sm:px-0">
           {portfolio.map(
             ({ id, projectImage, demoLink, githubLink, projectTitle }) => (
               <div key={id}>
