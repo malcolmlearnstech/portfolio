@@ -53,7 +53,10 @@ module.exports = {
   },
   plugins: [
     new CopyWebpackPlugin({
-      patterns: [{ from: 'public/index.html', to: 'index.html' }],
+      patterns: [
+        { from: 'public/index.html', to: 'index.html' },
+        { from: 'public/assets/site-icon2.png', to: 'images/site-icon2.png' },
+      ],
     }),
   ],
 };
