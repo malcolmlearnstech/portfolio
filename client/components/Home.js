@@ -2,6 +2,7 @@ import React from 'react';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import resume from '../../public/mmResume.pdf';
 import resume2 from '../../public/mmResume2.pdf';
+import siteLogo from '../../public/assets/site-icon2.png';
 
 export default function Home() {
   return (
