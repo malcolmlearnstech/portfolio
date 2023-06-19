@@ -93,7 +93,7 @@ export default function Navbar() {
                   <ScrollLink
                     key={nav.name}
                     to={nav.href}
-                    offset={-60}
+                    offset={-80}
                     className={classNames(
                       nav.current
                         ? 'bg-gradient-to-r from-cyan-600 to-blue-600 text-white'
