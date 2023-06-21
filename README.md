@@ -7,8 +7,12 @@
 ## About
 
 This site is meant to serve as a platform to learn about my background, skills, and projects. Visitors will also get insights into my journey, explore the languages and skills I've acquired, and view info about projects I've worked on. Visitors are also give the option to connect with me via email or on various social networking sites.
+<br>
 
 ## Technologies Used
 
-- EmailJS(v3.11.0): allows users on client side to send emails directly
-- React-Icons(v.4.8.0): allows React components to display customizable icon components
+- EmailJS(version 3.11.0): allows users on client side to send emails directly
+- React-Icons(version 4.8.0): allows React components to display customizable icon components
+- Webpack(version 5.76.2): compiles and bunbles all code and resources for optimal production
+- Copy-Webpack-Plugin(version 11.0.0): ensures that specified files are included in build process
+- TailwindCSS(version 3.3.1): offers library of utility classes for styling components/interfaces
