@@ -21,4 +21,4 @@ This site is meant to serve as a platform to learn about my background, skills, 
 
 Feel free to contact me via email at malcolmmack.json@gmail.com
 
-Visit my site to learn more at digitalmack.info
+Visit my site to learn more at https://digitalmack.info/
