@@ -6,7 +6,7 @@
 
 ## About
 
-This site is meant to serve as a platform to learn about my background, skills, and projects. Visitors will also get insights into my journey, explore the languages and skills I've acquired, and view info about projects I've worked on. Visitors are also give the option to connect with me via email or on various social networking sites.
+This site is meant to serve as a platform to learn about my background, skills, and projects. Visitors will get to explore the languages and skills I've acquired, and view information about projects I've worked on. Site visitors are also given the option to connect with me via email or on various social networking sites.
 <br>
 
 ## Technologies Used
