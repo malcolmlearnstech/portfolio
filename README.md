@@ -16,3 +16,9 @@ This site is meant to serve as a platform to learn about my background, skills, 
 - Webpack(version 5.76.2): compiles and bunbles all code and resources for optimal production
 - Copy-Webpack-Plugin(version 11.0.0): ensures that specified files are included in build process
 - TailwindCSS(version 3.3.1): offers library of utility classes for styling components/interfaces
+
+## Contact
+
+Feel free to contact me via email at malcolmmack.json@gmail.com
+
+Visit my site to learn more at digitalmack.info
